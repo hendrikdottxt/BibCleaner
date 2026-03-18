@@ -1,6 +1,6 @@
 Type: Package
 Package: BibCleaner
-Title: What the Package Does (Title Case)
+Title: Helps Manage .bib Files
 Version: 0.1.0
 Authors@R: 
     person("Henrik", "Træet", , "htr019@uib.no", role = c("aut", "cre"))
