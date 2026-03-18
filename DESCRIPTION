@@ -9,7 +9,7 @@ Description: More about what it does (maybe more than one line).
 License: MIT + file LICENSE
 URL: https://github.com/hendrikdottxt/BibCleaner
 BugReports: https://github.com/hendrikdottxt/BibCleaner/issues
-Imports: 
+Suggests: 
     roxygen2,
     testthat (>= 3.0.0),
     usethis
