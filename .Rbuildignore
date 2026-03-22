@@ -3,3 +3,4 @@
 ^LICENSE\.md$
 ^\.github$
 ^dev$
+^test_papers

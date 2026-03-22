@@ -4,8 +4,7 @@ Title: Helps Manage .bib Files
 Version: 0.1.0
 Authors@R: 
     person("Henrik", "Træet", , "htr019@uib.no", role = c("aut", "cre"))
-Description: More about what it does (maybe more than one line).
-    Continuation lines should be indented.
+Description: Helps you keep tidy .bib files in your directory with the use of file-parsing functions. 
 License: MIT + file LICENSE
 URL: https://github.com/hendrikdottxt/BibCleaner
 BugReports: https://github.com/hendrikdottxt/BibCleaner/issues

@@ -25,7 +25,7 @@
 #'
 powerwash_bib = function(input_files, output_dir = NULL) {
 
-  # If a single file is given as a character string, wrap it in a list
+  # If single file, wrap it in a list
   if (is.character(input_files) && length(input_files) == 1) {
     input_files = list(input_files)
   }
