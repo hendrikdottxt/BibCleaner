@@ -1,4 +1,4 @@
-#' Find and remove duplicate .bib files in a directory
+#' Find duplicate .bib files in a directory
 #'
 #' @param path Character string: directory path to search for `.bib` files
 #'   (default = current directory), or a character vector of file paths.
@@ -52,16 +52,5 @@ find_duplicates = function(path = ".", recursive = FALSE, remove = FALSE) {
     message("  - ", paste(basename(group), collapse = ", "))
   }
 
-  removed = character()
-  if (remove) {
-    for (group in dup_groups) {
-      # Keep the first file, remove the rest
-      to_remove = group[-1]
-      file.remove(to_remove)
-      removed = c(removed, to_remove)
-      message("Removed: ", paste(basename(to_remove), collapse = ", "))
-    }
-  }
-
-  invisible(list(duplicates = dup_groups, removed = removed))
+  invisible(list(duplicates = dup_groups))
 }

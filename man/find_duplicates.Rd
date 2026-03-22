@@ -2,7 +2,7 @@
 % Please edit documentation in R/find_duplicates.R
 \name{find_duplicates}
 \alias{find_duplicates}
-\title{Find and remove duplicate .bib files in a directory}
+\title{Find duplicate .bib files in a directory}
 \usage{
 find_duplicates(path = ".", recursive = FALSE, remove = FALSE)
 }
@@ -22,7 +22,7 @@ Invisibly returns a list with elements:
   * `removed` – vector of file paths that were removed (if `remove = TRUE`).
 }
 \description{
-Find and remove duplicate .bib files in a directory
+Find duplicate .bib files in a directory
 }
 \examples{
 \dontrun{
