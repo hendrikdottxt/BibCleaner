@@ -26,7 +26,7 @@ powerwash_bib(c("refrence1.bib", refrence2.bib, refrence3.bib"))
 #returns Author_Year named files for all input files.
 
 ##find_duplicates()
-find_duplicates({directory})
+find_duplicates("/directory")
 #Ignores file names, and finds .bib files with duplicate internals, and returns them.
 
 --------------------------------------------------------------------------------------------------
@@ -36,6 +36,6 @@ Author extraction: The first author’s last name and first initial are used (e.
 
 Year extraction: The four‑digit year is taken from the year or date field. If missing, XXXX is used.
 
-The renamed file is saved in the same folder as the original (or in output_dir if provided). The original file is deleted after successful renaming.
+The renamed file is saved in the same folder as the original (or in output_dir if provided).
 
 --------------------------------------------------------------------------------------------------
